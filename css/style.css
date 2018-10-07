@@ -4134,7 +4134,7 @@ h6 {
 /*Verdes*/
 .textTitleGreen{
   font-family: 'peralta' !important; 
-  color: #CDDC39 !important; 
+  color: #bdcb36 !important; 
 }
 /*Rojos*/
 .textTitleRed{
@@ -4178,6 +4178,16 @@ h6 {
   font-size: 24px !important;
   text-align: justify;
   font-family: 'mali' !important;
+}
+
+.textBasic1Slider{
+  font-size: 16px !important;
+  text-align: justify;
+  font-family: 'mali' !important; 
+  padding: 15px !important;
+  background-color: rgba(39,39,39,0.9) !important;
+  color:white;
+
 }
 
 /*Carga de tipos de letra*/
@@ -4224,6 +4234,7 @@ body{
 .top-content{
   background: #f0eaf4 !important; 
 }
+
 
 
 
