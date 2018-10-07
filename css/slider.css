@@ -28,12 +28,14 @@
 
 #slider1 {
     margin: 20px;
-    font-family: 'Lato';
+    font-family: 'Lato'; 
 }
 
-#slider1 > ul > li:nth-of-type(3) {
-    background: url(./themes/fruit.jpg);
+.sliderUl{
+    max-height: 700px !important;
 }
+
+
 
 #slider1 > input:nth-of-type(3):checked ~ ul #bg {
     width: 100%;
