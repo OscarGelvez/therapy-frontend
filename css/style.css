@@ -4187,9 +4187,13 @@ h6 {
   padding: 15px !important;
   background-color: rgba(39,39,39,0.9) !important;
   color:white;
-
 }
 
+.textBasicPegi{
+  font-size: 18px !important;
+  text-align: justify;
+  font-family: 'mali' !important;
+}
 /*Carga de tipos de letra*/
 
 /* peralta-regular - latin */
