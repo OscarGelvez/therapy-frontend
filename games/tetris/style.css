@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Viga');
+
+html, body {
+  height: 100%;
+}
+
+body {
+    background: #404040; 
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  /* This centers our sketch horizontally. */
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+
+  /* This centers our sketch vertically. */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+
+.flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    height: 796px;
+    width: 200px;
+    border: 2px solid #404040;
+    font-size: 18px;
+    background-color: #E5E5E5;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    font-family: 'Viga';
+}
+
+.putScore, .putLines, .putLevel {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #101010;
+    color: #8FB299;
+}
+
+hr {
+    width: 50%;
+    color: rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+
+.inst img {
+    margin-top: 200px;
+    margin-right: 35px;
+}
