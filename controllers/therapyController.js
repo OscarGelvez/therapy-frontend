@@ -40,7 +40,7 @@ app.controller('therapyController', ['$scope', '$location', 'Map', function($sco
 		  progressSteps: ['1', '2', '3', '4']
 		}).queue([
 		  {
-		    title: 'Bienvenidos al rincón Terapéutico'		    
+		    title: 'Bienvenidos al Rincón Terapéutico'		    
 		  },
 		  
 		    'A continuación, te daremos a conocer contenido puntual acerca de los videojuegos y los hábitos del rol escolar en los adolescentes.',
