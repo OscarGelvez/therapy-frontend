@@ -29,32 +29,25 @@ app.controller('therapyController', ['$scope', '$location', 'Map', function($sco
   		
   	};
 
+  	
+
   	therapy.algo= function(){
   		 
 		swal.mixin({
-		  input: 'text',
-		  confirmButtonText: 'Next &rarr;',
-		  showCancelButton: true,
-		  progressSteps: ['1', '2', '3']
+		  
+		  confirmButtonText: 'Siguiente',
+		  showCancelButton: false,
+		  progressSteps: ['1', '2', '3', '4']
 		}).queue([
 		  {
-		    title: 'Question 1',
-		    text: 'Chaining swal2 modals is easy'
+		    title: 'Bienvenidos al rincón Terapéutico'		    
 		  },
-		  'Question 2',
-		  'Question 3'
-		]).then((result) => {
-		  if (result.value) {
-		    swal({
-		      title: 'All done!',
-		      html:
-		        'Your answers: <pre><code>' +
-		          JSON.stringify(result.value) +
-		        '</code></pre>',
-		      confirmButtonText: 'Lovely!'
-		    })
-		  }
-		})  	
+		  
+		    'A continuación, te daremos a conocer contenido puntual acerca de los videojuegos y los hábitos del rol escolar en los adolescentes.',
+		  
+		  'Te brindamos estrategias que pueden ser útiles para detectar si existe una dependencia a los videojuegos.',
+		  'Por ultimo encontraras recomendaciones para el manejo apropiado del tiempo frente a la ejecución de las diferentes actividades de tu diario vivir.'
+		]) 	
 	}
 
 
