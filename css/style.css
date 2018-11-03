@@ -4136,6 +4136,14 @@ h6 {
   font-family: 'peralta' !important; 
   color: #bdcb36 !important; 
 }
+
+/*Verde oscuro*/
+.textTitleGreenDark{
+  font-family: 'peralta' !important; 
+  color: #2a9b21 !important; 
+}
+
+
 /*Rojos*/
 .textTitleRed{
   font-family: 'peralta' !important; 
@@ -4166,6 +4174,29 @@ h6 {
   color: #E91E63 !important; 
   text-align: center; 
 }
+
+/*Negro*/
+.textTitleBlack{
+  font-family: 'peralta' !important; 
+  color: #292929 !important; 
+  text-align: center; 
+}
+
+/*Azul Rey*/
+.textTitleBlueKing{
+  font-family: 'peralta' !important; 
+  color: #363bff !important; 
+  text-align: center; 
+}
+
+/*Lila*/
+.textTitleLila{
+  font-family: 'peralta' !important; 
+  color: #c426c6 !important; 
+  text-align: center; 
+}
+
+
 
 
 /*Estilos para Parrafos*/
@@ -4245,6 +4276,50 @@ body{
     margin-left: auto;
     margin-right: auto;
 
+}
+
+.sticky-container{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-185px;
+    top:230px;
+    width:272px;
+    z-index: 1100;
+}
+.sticky li{
+    list-style-type:none;
+    background-color:#fff;
+    color:#efefef;
+    height:43px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+}
+.sticky li:hover{
+    margin-left:-150px;
+}
+.sticky li img{
+    float:left;
+    margin:5px 4px;
+    margin-right:5px;
+}
+.sticky li p{
+    padding-top:5px;
+    margin:0px;
+    line-height:16px;
+    font-size:11px;
+}
+.sticky li p a{
+    text-decoration:none;
+    color:#2C3539;
+}
+.sticky li p a:hover{
+    text-decoration:underline;
 }
 
 
