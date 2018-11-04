@@ -73,7 +73,7 @@ app.config(['$routeProvider', '$locationProvider', 'ROLES', '$authProvider',
         link: function(scope, $elm,attr) {                                                   
 
             $elm.on('click', function() {                                                    
-                $('html,body').animate({scrollTop: $(scope.scrollTo).offset().top }, 5); //Propiedad animate jquery
+                $('html,body').animate({scrollTop: $(scope.scrollTo).offset().top }, 1); //Propiedad animate jquery
             });                                                                              
         }                                                                                    
 }})  
