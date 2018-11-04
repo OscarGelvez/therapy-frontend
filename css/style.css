@@ -4291,7 +4291,7 @@ body{
     position:fixed;
     right:-185px;
     top:230px;
-    width:272px;
+    width:270px;
     z-index: 1100;
 }
 .sticky li{
@@ -4308,7 +4308,7 @@ body{
     cursor:pointer;
 }
 .sticky li:hover{
-    margin-left:-150px;
+    margin-left:-165px;
 }
 .sticky li img{
     float:left;
