@@ -40,7 +40,7 @@ app.controller('therapyController', ['$scope', '$location', 'Map', function($sco
 		  progressSteps: ['1', '2', '3', '4']
 		}).queue([
 		  {
-		    title: 'Bienvenidos al Rincón Terapéutico'		    
+		    title: 'Bienvenidos a OCCUPATIONAL THERAPY GAMERS WORLD '		    
 		  },
 		  
 		    'A continuación, te daremos a conocer contenido puntual acerca de los videojuegos y los hábitos del rol escolar en los adolescentes.',
@@ -49,11 +49,6 @@ app.controller('therapyController', ['$scope', '$location', 'Map', function($sco
 		  'Por ultimo encontraras recomendaciones para el manejo apropiado del tiempo frente a la ejecución de las diferentes actividades de tu diario vivir.'
 		]) 	
 	}
-
-
-
-
-
 
 
 /* Carga el mapa de Contacto */
