@@ -4330,6 +4330,9 @@ body{
 }
 
 
+body{
+   overflow-x: hidden !important;
+}
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
