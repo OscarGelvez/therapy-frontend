@@ -43,7 +43,7 @@ app.controller('therapyController', ['$scope', '$location', 'Map', function($sco
 		    title: 'Bienvenidos a OCCUPATIONAL THERAPY GAMERS WORLD '		    
 		  },
 		  
-		    'A continuación, te daremos a conocer contenido puntual acerca de los videojuegos y los hábitos del rol escolar en los adolescentes.',
+		    'A continuación, te daremos a conocer información importante acerca de los videojuegos y los hábitos del rol escolar en los adolescentes.',
 		  
 		  'Te brindamos estrategias que pueden ser útiles para detectar si existe una dependencia a los videojuegos.',
 		  'Por ultimo encontraras recomendaciones para el manejo apropiado del tiempo frente a la ejecución de las diferentes actividades de tu diario vivir.'
