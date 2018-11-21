@@ -781,31 +781,31 @@
                             
                             <div class="info_item">
                                 <i class="lnr lnr-envelope"></i>
-                                <h6><a href="#">support@colorlib.com</a></h6>
+                                <h6><a href="#">mytherapygame@gmail.com</a></h6>
                                 <p>Envíanos tu consulta cuando quieras!</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-9">
-                        <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                        <form class="row "  novalidate>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Ingresa tu nombre">
+                                    <input type="text" class="form-control" id="name" name="name" ng-model="therapy.nameUser" placeholder="Ingresa tu nombre">
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Ingresa tu correo eléctronico">
+                                    <input type="email" class="form-control" id="email" name="email" ng-model="therapy.emailUser" placeholder="Ingresa tu correo eléctronico">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Asunto">
+                                    <input type="text" class="form-control" id="subject" name="subject" ng-model="therapy.subjectUser" placeholder="Asunto">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" name="message" id="message" rows="1" placeholder="Déjanos tu mensaje"></textarea>
+                                    <textarea class="form-control" name="message" id="message" rows="5" ng-model="therapy.commentUser" placeholder="Déjanos tu mensaje"></textarea>
                                 </div>
                             </div>
                             <div class="col-md-12 text-right">
-                                <button type="submit" value="submit" class="btn submit_btn">¡Enviar!</button>
+                                <button  class="btn submit_btn" ng-click="therapy.sendEmail()">¡Enviar!</button>
                             </div>
                         </form>
                     </div>

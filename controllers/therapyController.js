@@ -5,7 +5,7 @@ app.constant('CONFIG', {
  
 })
 
-app.controller('therapyController', ['$scope', '$location', 'Map', function($scope, $location, Map){
+app.controller('therapyController', ['$scope', '$location', 'Map', '$http', function($scope, $location, Map, $http){
 
 	var therapy = this;
 
@@ -48,8 +48,33 @@ app.controller('therapyController', ['$scope', '$location', 'Map', function($sco
 		  'Te brindamos estrategias que pueden ser útiles para detectar si existe una dependencia a los videojuegos.',
 		  'Por ultimo encontraras recomendaciones para el manejo apropiado del tiempo frente a la ejecución de las diferentes actividades de tu diario vivir.'
 		]) 	
-	}
+	};
 
+	therapy.sendEmail=function(){
+		console.log('llego: '+therapy.nameUser);
+
+		if(therapy.nameUser == undefined || therapy.emailUser == undefined ||
+		therapy.subjectUser == undefined || therapy.commentUser == undefined) //
+		{
+			alert('hay algun campo vacio');
+			return;
+		}
+	  
+	  
+	  $http.post("services/sendEmail.php",{
+	              name: therapy.nameUser,
+	              email: therapy.emailUser,
+	              subject: therapy.subjectUser,
+	              comment: therapy.commentUser
+
+	  }).then(function(data){
+	  	if(data.data = 11){
+	  		alert('Mensaje enviado correctamente');
+	  	}
+
+	    
+	  })
+	}
 
 /* Carga el mapa de Contacto */
 Map.init();
